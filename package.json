@@ -2,7 +2,7 @@
   "name": "zetta-proposal-one",
   "version": "0.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "server.js",
   "dependencies": {
     "zetta": "~0.11.0",
     "zetta-device": "~0.3.0"
