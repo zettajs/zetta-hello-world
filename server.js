@@ -6,5 +6,4 @@ var app = require('./apps');
 zetta()
   .use(WaveGenerator)
   .use(Led)
-  .use(app)
-  .listen(1337);
+  .listen(process.env.PORT || 1337);
