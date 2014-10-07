@@ -1,4 +1,4 @@
-#Sine Wave Sample
+# Zetta Hello World
 
 This is a sample zetta app with two mock devices. A sensor and an actuator.
 
