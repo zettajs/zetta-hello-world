@@ -13,7 +13,7 @@ util.inherits(WaveGenerator, Device);
 
 WaveGenerator.prototype.init = function(config) {
   config
-    .name('SinWave')
+    .name('SineWave')
     .type('generator')
     .monitor('wave');
 
