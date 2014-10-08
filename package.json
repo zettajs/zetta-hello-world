@@ -4,8 +4,6 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "zetta": "~0.12.0",
-    "zetta-mock-led": "^0.4.0"
   },
   "devDependencies": {},
   "scripts": {
