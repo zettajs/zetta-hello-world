@@ -1,11 +1,12 @@
 {
-  "name": "zetta-proposal-one",
+  "name": "zetta-hello-world",
   "version": "0.0.0",
   "description": "",
   "main": "server.js",
   "dependencies": {
     "zetta": "~0.11.0",
-    "zetta-device": "~0.3.0"
+    "zetta-mock-led": "^0.4.0",
+    "zetta-sine-wave": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {

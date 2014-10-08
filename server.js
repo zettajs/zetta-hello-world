@@ -1,6 +1,6 @@
 var zetta = require('zetta');
 var LED = require('zetta-mock-led');
-var Sine = require('zetta-sine-wave-driver');
+var Sine = require('zetta-sine-wave');
  
 var app = require('./apps/app');
  
