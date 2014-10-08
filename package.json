@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "zetta": "~0.11.0",
+    "zetta": "~0.12.0",
     "zetta-mock-led": "^0.4.0",
     "zetta-sine-wave": "^0.2.0"
   },
