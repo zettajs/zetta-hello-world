@@ -1,9 +1,14 @@
 var zetta = require('zetta');
-var WaveGenerator = require('./devices/wave');
-var Led = require('./devices/led');
-var app = require('./apps');
-
+var LED = require('zetta-mock-led');
+var Sine = require('zetta-sine-wave-driver');
+ 
+var app = require('./apps/app');
+ 
 zetta()
-  .use(WaveGenerator)
-  .use(Led)
-  .listen(process.env.PORT || 1337);
+  .use(LED)
+  .use(Sine)
+  .use(app)
+  .link('http://hello-zetta.herokuapp.com/')
+  .listen(1337, function(){
+    console.log('Zetta is running at http://beaglebone.local:1337');
+  });
