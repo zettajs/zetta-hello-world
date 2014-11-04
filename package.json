@@ -2,17 +2,23 @@
   "name": "zetta-hello-world",
   "version": "0.0.0",
   "description": "",
-  "main": "server.js",
-  "dependencies": {
-    "zetta": "~0.14.0",
-    "zetta-mock-led": "^0.6.0",
-    "zetta-sine-wave": "^0.3.0"
-  },
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zettajs/zetta-hello-world.git"
+  },
+  "author": "Brian Mulloy <brian@landlessness.net> (http://landlessness.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zettajs/zetta-hello-world/issues"
+  },
+  "homepage": "https://github.com/zettajs/zetta-hello-world",
+  "dependencies": {
+    "zetta": "~0.16.0",
+    "zetta-led-mock-driver": "~0.7.1",
+    "zetta-photocell-mock-driver": "~0.4.0"
+  }
 }
