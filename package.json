@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/zettajs/zetta-hello-world",
   "dependencies": {
-    "zetta": "~0.16.0",
+    "zetta": "~0.17.0",
     "zetta-led-mock-driver": "~0.7.1",
     "zetta-photocell-mock-driver": "~0.4.0"
   }
